@@ -3,6 +3,6 @@ numpy
 pandas
 plotly
 scikit-learn
-torch~=2.3
+torch==2.0.0
 tqdm
 zuko~=1.2

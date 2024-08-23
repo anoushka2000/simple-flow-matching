@@ -91,10 +91,10 @@ class FlowMatchingLoss(nn.Module):
         Continuous normalizing flow model.
     """
 
-    def __init__(self, velocity_field: nn.Module):
+    def __init__(self, velocity_field: nn.Module, sigma_min: float):
         super().__init__()
         self.velocity_field = velocity_field
-        self.sigma_min = 1e-4
+        self.sigma_min = sigma_min
 
     def forward(self, x1: Tensor) -> Tensor:
         """
