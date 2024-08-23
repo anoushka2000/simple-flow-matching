@@ -1,5 +1,5 @@
 # Simple Flow Matching
-A minimal demo of Conditional Flow Matching with Optimal Transport inspired by the 100 lines of code implementation [here](https://gist.github.com/francois-rozet/fd6a820e052157f8ac6e2aa39e16c1aa).
+A minimal demo of Conditional Flow Matching with Optimal Transport adapted from the 100 lines of code implementation [here](https://gist.github.com/francois-rozet/fd6a820e052157f8ac6e2aa39e16c1aa).
 
 The example notebook walks through the training and inference workflow [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/anoushka2000/simple-flow-matching/blob/main/simple_flow_matching/train.ipynb)
 
