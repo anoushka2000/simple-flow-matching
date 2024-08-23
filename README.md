@@ -1,10 +1,13 @@
 # Simple Flow Matching
 A minimal demo of Conditional Flow Matching with Optimal Transport inspired by the 100 lines of code implementation [here](https://gist.github.com/francois-rozet/fd6a820e052157f8ac6e2aa39e16c1aa).
 
+The example notebook walksthrough the full training workflow [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/anoushka2000/simple-flow-matching/blob/main/train.ipynb)
+
+
 The [Torch-CFM library](https://github.com/atong01/conditional-flow-matching) provides scalable and flexible support for training CNFs.
 
 
-## Reference Papers
+## Reference Paper
 
 The algorithms implemented here and notation used follows:
 <details>
@@ -27,7 +30,7 @@ Yaron Lipman, Ricky T. Q. Chen, Heli Ben-Hamu, Maximilian Nickel, Matt Le. Flow 
 
 
 
-# Installation
+## Installation
 Follow the steps given below to install `simple-flow-matching` in `conda` virtual environment.
 
 ```bash
