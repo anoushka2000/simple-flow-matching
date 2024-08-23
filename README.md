@@ -9,7 +9,7 @@ The [Torch-CFM library](https://github.com/atong01/conditional-flow-matching) pr
 
 ## Reference Paper
 
-The algorithms implemented here and notation used follows:
+The algorithms implemented and notation used in the notes and code follows:
 <details>
 <summary>
 Yaron Lipman, Ricky T. Q. Chen, Heli Ben-Hamu, Maximilian Nickel, Matt Le. Flow Matching for Generative Modeling, 2023.
