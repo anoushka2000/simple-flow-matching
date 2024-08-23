@@ -1,0 +1,7 @@
+numpy
+pandas
+plotly
+sklearn
+torch
+tqdm
+zuko
