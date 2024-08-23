@@ -12,8 +12,5 @@ build/
 *.ckpt/
 *.ckpt
 
-# figures
-*.pdf
-
 # outputs
 *.json
