@@ -31,7 +31,7 @@ Yaron Lipman, Ricky T. Q. Chen, Heli Ben-Hamu, Maximilian Nickel, Matt Le. Flow 
 
 
 ## Installation
-Follow the steps given below to install `simple-flow-matching` in `conda` virtual environment.
+Follow the steps given below to install `simple-flow-matching` in a `conda` virtual environment.
 
 ```bash
 # Clone this repository to your machine
