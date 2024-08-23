@@ -1,0 +1,17 @@
+__pycache__/
+*.sif
+.conda/
+.venv/
+
+# Log files
+*.o*
+
+# Checkpoints
+*.ckpt/
+*.ckpt
+
+# figures
+*.pdf
+
+# outputs
+*.json

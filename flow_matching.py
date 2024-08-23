@@ -8,10 +8,7 @@
 import torch
 import torch.nn as nn
 
-from sklearn.datasets import make_moons
 from torch import Tensor
-from torch.distributions import Normal
-from tqdm import tqdm
 from typing import List
 from zuko.utils import odeint
 
