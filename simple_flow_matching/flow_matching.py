@@ -71,14 +71,14 @@ class CNF(nn.Module):
         """
         Integrate from data (q) to source (p0) distribution.
         """
-        return odeint(f=self, x=x0, t0=1.0, t1=0.0, phi=self.parameters())
+        return odeint(f=self, x=x0, t0=1.0, t1=0.0, phi=self.parameters()) # type: ignore
 
     def decode(self, z: Tensor) -> Tensor:
         """
         Integrate from noise (p0) to approximated
         data (p1) distribution.
         """
-        return odeint(f=self, x=z, t0=0.0, t1=1.0, phi=self.parameters())
+        return odeint(f=self, x=z, t0=0.0, t1=1.0, phi=self.parameters()) # type: ignore
 
 
 class FlowMatchingLoss(nn.Module):
