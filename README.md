@@ -39,7 +39,7 @@ git clone https://github.com/anoushka2000/simple-flow-matching.git
 
 # On artemis
 module purge
-module --ignore_cache load python/3.11.5 cuda/12.2.0
+module --ignore_cache load python/3.11.5 cuda/12.1.1
 
 # Create a virtual environment
 conda create --name flow_matching python=3.11
