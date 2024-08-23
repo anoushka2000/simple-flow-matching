@@ -2,6 +2,8 @@ __pycache__/
 *.sif
 .conda/
 .venv/
+*.eeg-info/
+build/
 
 # Log files
 *.o*

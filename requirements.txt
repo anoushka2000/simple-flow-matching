@@ -1,7 +1,8 @@
+notebook
 numpy
 pandas
 plotly
-sklearn
+scikit-learn
 torch~=2.3
 tqdm
 zuko~=1.2
